@@ -1,0 +1,40 @@
+
+body {
+  background-color: var(--cor-fundo-pagina);
+  font-style: var(--fonte-principal);
+}
+
+.container_ar{
+  width: 100%;
+  height: 10.0rem;
+  gap: 3.0rem;
+  margin-top: 7.0rem;
+  margin-bottom: 7.0rem;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.cartao_ar{
+  display: flex;
+  padding-left: 4.0rem;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: flex-start;
+  height: 25.0rem;
+  width: 50.0rem;
+  background-color: white;
+  box-shadow: 3px 3px 3px 3px black;
+  margin: auto;
+  color: black;
+  border-radius: 5.0rem;
+}
+
+.cartao_ar > p {
+  font-size: 1.2rem;
+}
+
+.logo_ar{
+  height: 10.0rem;
+  width: 5.0rem;
+}

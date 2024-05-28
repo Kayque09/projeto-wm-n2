@@ -1,0 +1,33 @@
+body {
+    background-color: var(--cor-fundo-pagina);
+
+}
+
+/* * {
+    border: 1px solid red;
+} */
+
+h1 {
+    font-family: var(--fonte-principal);
+    font-size: 3.7rem;
+    padding-top: 1.5rem;
+}
+
+h2 {
+    font-family: var(--fonte-principal);
+    font-size: 3.0rem;
+}
+
+p {
+
+    font-family: var(--fonte-principal);
+    font-size: 1.9rem;
+    padding-left: 1.0rem;
+    font-weight: 600;
+}
+
+a {
+    font-family: var(--fonte-principal);
+    text-decoration: none;
+    color: blue;
+}

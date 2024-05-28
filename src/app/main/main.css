@@ -1,0 +1,23 @@
+body {
+    background-color: var(--cor-fundo-pagina);
+    font-style: var(--fonte-principal);
+}
+
+/* *{
+    border: 1px solid red;
+} */
+
+.titulo {
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    font-size: 70px;
+    margin-right: 50px;
+}
+
+section {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
